@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/cashier/compare/v15.3.2...15.x)
+## [Unreleased](https://github.com/laravel/cashier/compare/v15.4.0...15.x)
+
+## [v15.4.0](https://github.com/laravel/cashier/compare/v15.3.2...v15.4.0) - 2024-07-02
+
+* [15.x] Indicate if invoice is paid by [@driesvints](https://github.com/driesvints) in https://github.com/laravel/cashier-stripe/pull/1686
 
 ## [v15.3.2](https://github.com/laravel/cashier/compare/v15.3.1...v15.3.2) - 2024-04-12
 
