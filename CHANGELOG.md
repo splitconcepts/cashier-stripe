@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/cashier/compare/v15.4.0...15.x)
+## [Unreleased](https://github.com/laravel/cashier/compare/v15.4.1...15.x)
+
+## [v15.4.1](https://github.com/laravel/cashier/compare/v15.4.0...v15.4.1) - 2024-07-09
+
+* [15.x] Remove limitation from checkoutCharge by [@driesvints](https://github.com/driesvints) in https://github.com/laravel/cashier-stripe/pull/1690
 
 ## [v15.4.0](https://github.com/laravel/cashier/compare/v15.3.2...v15.4.0) - 2024-07-02
 
