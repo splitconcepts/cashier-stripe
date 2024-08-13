@@ -542,6 +542,8 @@ class Subscription extends Model
      * @param  \DateTimeInterface|int|null  $timestamp
      * @param  string|null  $price
      * @return \Stripe\UsageRecord
+     *
+     * @deprecated Migrate to Usage Based billing instead.
      */
     public function reportUsage($quantity = 1, $timestamp = null, $price = null)
     {
@@ -559,6 +561,8 @@ class Subscription extends Model
      * @param  int  $quantity
      * @param  \DateTimeInterface|int|null  $timestamp
      * @return \Stripe\UsageRecord
+     *
+     * @deprecated Migrate to Usage Based billing instead.
      */
     public function reportUsageFor($price, $quantity = 1, $timestamp = null)
     {
@@ -571,6 +575,8 @@ class Subscription extends Model
      * @param  array  $options
      * @param  string|null  $price
      * @return \Illuminate\Support\Collection
+     *
+     * @deprecated Migrate to Usage Based billing instead.
      */
     public function usageRecords(array $options = [], $price = null)
     {
@@ -587,6 +593,8 @@ class Subscription extends Model
      * @param  string  $price
      * @param  array  $options
      * @return \Illuminate\Support\Collection
+     *
+     * @deprecated Migrate to Usage Based billing instead.
      */
     public function usageRecordsFor($price, array $options = [])
     {

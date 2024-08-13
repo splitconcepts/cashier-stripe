@@ -208,6 +208,8 @@ class SubscriptionItem extends Model
      * @param  int  $quantity
      * @param  \DateTimeInterface|int|null  $timestamp
      * @return \Stripe\UsageRecord
+     *
+     * @deprecated Migrate to Usage Based billing instead.
      */
     public function reportUsage($quantity = 1, $timestamp = null)
     {
@@ -225,6 +227,8 @@ class SubscriptionItem extends Model
      *
      * @param  array  $options
      * @return \Illuminate\Support\Collection
+     *
+     * @deprecated Migrate to Usage Based billing instead.
      */
     public function usageRecords($options = [])
     {
