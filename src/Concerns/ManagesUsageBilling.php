@@ -59,7 +59,7 @@ trait ManagesUsageBilling
     {
         $this->assertCustomerExists();
 
-        $startTime = $options['start_time'] ?? $this->created_at->timestamp;
+        $startTime = $options['start_time'] ?? 1;
 
         $endTime = $options['end_time'] ?? time();
 
