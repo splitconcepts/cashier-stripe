@@ -142,7 +142,6 @@ class UsageBasedBillingTest extends FeatureTestCase
         sleep(1);
 
         $user->reportMeterEvent(static::$meterEventName, 10);
-        sleep(1);
 
         $summary = $user->meterEventSummaries(static::$meterId)->first();
 
@@ -171,7 +170,6 @@ class UsageBasedBillingTest extends FeatureTestCase
         }
 
         $user->reportMeterEvent(static::$otherMeterEventName, 20);
-        sleep(1);
 
         try {
             $user->meterEventSummaries(static::$otherMeterId)->first();
