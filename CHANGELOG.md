@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/cashier/compare/v15.4.1...15.x)
+## [Unreleased](https://github.com/laravel/cashier/compare/v15.4.2...15.x)
+
+## [v15.4.2](https://github.com/laravel/cashier/compare/v15.4.1...v15.4.2) - 2024-08-20
+
+* Add missing docblocks by [@u01jmg3](https://github.com/u01jmg3) in https://github.com/laravel/cashier-stripe/pull/1694
+* Fixes SQLite migration rollback by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/cashier-stripe/pull/1703
+* [15.x] Catch missing payment intents by [@shatterproof](https://github.com/shatterproof) in https://github.com/laravel/cashier-stripe/pull/1704
 
 ## [v15.4.1](https://github.com/laravel/cashier/compare/v15.4.0...v15.4.1) - 2024-07-09
 
