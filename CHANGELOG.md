@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/cashier/compare/v15.4.2...15.x)
+## [Unreleased](https://github.com/laravel/cashier/compare/v15.4.3...15.x)
+
+## [v15.4.3](https://github.com/laravel/cashier/compare/v15.4.2...v15.4.3) - 2024-09-03
+
+* [15.x] Prevent mass assignment issue by [@driesvints](https://github.com/driesvints) in https://github.com/laravel/cashier-stripe/pull/1713
 
 ## [v15.4.2](https://github.com/laravel/cashier/compare/v15.4.1...v15.4.2) - 2024-08-20
 
