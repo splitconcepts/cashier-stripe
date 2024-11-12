@@ -1,6 +1,12 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/cashier/compare/v15.4.3...15.x)
+## [Unreleased](https://github.com/laravel/cashier/compare/v15.5.0...15.x)
+
+## [v15.5.0](https://github.com/laravel/cashier/compare/v15.4.3...v15.5.0) - 2024-11-12
+
+* Update logo to support dark/light theme by [@milewski](https://github.com/milewski) in https://github.com/laravel/cashier-stripe/pull/1717
+* Bump stripe/stripe-php to v16 by [@karkowg](https://github.com/karkowg) in https://github.com/laravel/cashier-stripe/pull/1721
+* Fix repeated word "the" in code comment by [@caendesilva](https://github.com/caendesilva) in https://github.com/laravel/cashier-stripe/pull/1723
 
 ## [v15.4.3](https://github.com/laravel/cashier/compare/v15.4.2...v15.4.3) - 2024-09-03
 
