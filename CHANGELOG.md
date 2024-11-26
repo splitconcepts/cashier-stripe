@@ -1,6 +1,10 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/cashier/compare/v15.5.0...15.x)
+## [Unreleased](https://github.com/laravel/cashier/compare/v15.5.1...15.x)
+
+## [v15.5.1](https://github.com/laravel/cashier/compare/v15.5.0...v15.5.1) - 2024-11-26
+
+* [15.x] Supports PHP 8.4 by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/cashier-stripe/pull/1724
 
 ## [v15.5.0](https://github.com/laravel/cashier/compare/v15.4.3...v15.5.0) - 2024-11-12
 
