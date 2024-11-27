@@ -59,7 +59,7 @@ trait ManagesUsageBilling
     {
         $this->assertCustomerExists();
 
-        if (!isset($endTime)) {
+        if (! isset($endTime)) {
             $endTime = time();
         }
 
